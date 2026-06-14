@@ -1,50 +1,55 @@
 # stm32-bluetooth-home-automation
-# Smart Home Automation using STM32 and HC-05 Bluetooth Module
+# 🏠 Smart Home Automation using STM32 & HC-05
 
-## 📌 Overview
+## 📖 About the Project
 
-This project demonstrates a Bluetooth-based Smart Home Automation system using the STM32F446RETX microcontroller and HC-05 Bluetooth module. The system enables wireless control of household appliances such as LED lights and DC fans through a smartphone application using UART communication.
+This project is a simple and efficient smart home automation system developed using the STM32F446RETX microcontroller and HC-05 Bluetooth module. It allows users to wirelessly control home appliances like LED lights and DC fans using a smartphone through Bluetooth communication.
+The main aim of this project is to provide an easy, low-cost, and user-friendly home automation solution without using internet connectivity.
 
-The project focuses on embedded systems design, wireless communication, relay interfacing, and real-time appliance control.
+## ✨ Features
 
-# 🚀 Features
+* 📱 Wireless appliance control using Bluetooth
+* 💡 LED ON/OFF and blinking control
+* 🌪️ DC fan ON/OFF control
+* ⚡ Real-time response using UART communication
+* 🔋 Battery-powered portable system
+* 🛡️ Safe appliance switching using relay module
 
-* Wireless control of appliances using Bluetooth
-* UART interrupt-based communication
-* LED ON/OFF and Blink control
-* DC fan ON/OFF control using relay module
-* Real-time response system
-* Portable battery-powered design
-* Low-cost and energy-efficient solution
-
-# 🛠️ Hardware Components
+## 🛠️ Components Used
 
 * STM32F446RETX Nucleo Board
 * HC-05 Bluetooth Module
-* 5V Relay Module
+* Relay Module
 * 5V DC Fan
 * LED
-* 3.7V Li-Ion Battery Pack
-* Buck Converter Module
-* Breadboard and Connecting Wires
+* Li-Ion Battery
+* Buck Converter
+* Breadboard & Connecting Wires
 
-# 💻 Software Used
+
+## 💻 Software & Tools
 
 * STM32CubeIDE
 * Embedded C
-* ARM GCC / Keil Compiler
-* Serial Bluetooth Terminal Application
-* UART Communication Protocol
+* UART Communication
+* Serial Bluetooth Terminal App
 
-# ⚙️ Working Principle
 
-The smartphone sends Bluetooth commands to the HC-05 module. The STM32 microcontroller receives these commands through UART communication and processes them to control connected appliances via relay switching.
+## ⚙️ How It Works
 
-The relay module safely switches the appliances ON/OFF while maintaining electrical isolation between the control and power circuits.
+The smartphone sends commands through Bluetooth to the HC-05 module. The STM32 microcontroller receives these commands using UART communication and controls the connected appliances through the relay module.
 
-# 📡 Command Functions
+The system can:
 
-| Command | Function  |
+* Turn LED ON/OFF
+* Blink LED
+* Turn fan ON/OFF
+All operations happen wirelessly within the Bluetooth range.
+
+
+## 📡 Command Controls
+
+| Command | Action    |
 | ------- | --------- |
 | 1       | LED ON    |
 | 2       | LED BLINK |
@@ -52,53 +57,34 @@ The relay module safely switches the appliances ON/OFF while maintaining electri
 | 4       | FAN ON    |
 | 5       | FAN OFF   |
 
-# 🧠 Key Concepts Used
+## 🧠 What I Learned
 
-* Embedded Systems
-* UART Communication
-* Interrupt-Based Programming
-* Bluetooth Communication
-* Relay Interfacing
-* GPIO Control
-* Power Regulation
-* Real-Time Embedded Control
-
-# 🔧 Future Improvements
-
-* Mobile application development
-* Wi-Fi / IoT integration
-* Voice assistant support
-* Sensor-based automation
-* PCB implementation
-* Cloud monitoring system
-
-# 📈 Results
-
-* Successful Bluetooth communication established using HC-05 module
-* Reliable real-time appliance control achieved
-* Stable relay switching using STM32 GPIO control
-* Fast response within Bluetooth operating range
-* Efficient battery-powered operation using buck converter regulation
-
-# 📚 Learning Outcomes
-
-* STM32 peripheral configuration
-* UART interrupt handling
+* STM32 programming
+* UART communication
+* Interrupt handling
+* Bluetooth interfacing
+* Relay control
 * Embedded C programming
-* Hardware-software integration
-* Wireless communication using Bluetooth
-* Relay module interfacing
-* Embedded debugging and testing
+* Hardware and software integration
 
-# 🎯 Applications
 
-* Smart Home Systems
-* Wireless Appliance Control
-* IoT Prototyping
-* Embedded Systems Education
-* Energy-Efficient Automation
+## 🚀 Future Improvements
 
-# 👨‍💻 Author
+* Mobile app development
+* IoT/Wi-Fi integration
+* Voice control system
+* Sensor-based automation
+* PCB design implementation
 
-Harshitha s
-Department of Electronics and Communication Engineering
+## 🎯 Applications
+
+* Smart home systems
+* Wireless appliance control
+* Embedded system projects
+* Home energy management
+
+## 👨‍💻 Author
+
+Harshitha S
+
+
