@@ -86,5 +86,5 @@ All operations happen wirelessly within the Bluetooth range.
 ## 👨‍💻 Author
 
 Harshitha S
-
+Electronics & Communication Engineering
 
